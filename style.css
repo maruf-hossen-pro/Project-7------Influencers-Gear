@@ -167,6 +167,12 @@ body {
     font-size: 0.8em;
     
 }
+.see-more{
+    border: none;
+    background-color: #fff;
+    max-width: 1000px;
+    margin: 0 auto;
+}
 
 @media screen and (max-width:576px) {
     body {
