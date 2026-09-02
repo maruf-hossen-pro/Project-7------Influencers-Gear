@@ -200,6 +200,30 @@ body {
 .feature-title{
     font-size: 0.7em ;
 }
+.footer-container{
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #0A0826;
+    color: #fff;
+    line-height: 1;
+    margin-top: 50px;
+}
+.footer-title{
+    font-size: 1em;
+}
+.social-media{
+    font-size: 2em;
+    padding: 20px;
+    
+}
+.social-media .fa-brands{
+    padding: 10px;
+    
+}
 @media screen and (max-width:576px) {
     body {
         overflow-y: hidden;
@@ -319,5 +343,8 @@ body {
     }
     .feature-title{
         font-size: 1em;
+    }
+    .social-media .fa-brands{
+        padding: 0px;
     }
 }
